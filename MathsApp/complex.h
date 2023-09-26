@@ -11,7 +11,13 @@ class Complex
 		Complex(int r, int i);
 		void display();
 		~Complex();
-		 int static getCount();
+		int static getCount();
+		
+		//Operator overloading
+		
+	  Complex& operator+ (Complex &c2);
+	  Complex& operator- (Complex &c2);
+
 	protected:
 };
 

@@ -15,7 +15,6 @@ Complex::Complex(int r, int i)
 {
 	this->real=r;
 	this->imag=i;
-	
 	Complex::count++;
 }
 
@@ -29,7 +28,23 @@ int  Complex::getCount(){
 	
 }
 
+
+
+ Complex& Complex::operator+ (Complex &c2){
+    Complex temp;
+ 	temp.real=this->real+ c2.real;
+ 	temp.imag=this->imag+ c2.imag;
+  	return temp;
+ }
+
+ Complex& Complex::operator- (Complex &c2){
+    Complex temp;
+ 	temp.real=this->real- c2.real;
+ 	temp.imag=this->imag- c2.imag;
+  	return temp;
+ }
+		
 Complex::~Complex()
 {
-		Complex::count--;
+	Complex::count--;
 }
