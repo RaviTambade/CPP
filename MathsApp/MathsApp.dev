@@ -1,6 +1,6 @@
 [Project]
-FileName=PersistenceApp.dev
-Name=PersistenceApp
+FileName=MathsApp.dev
+Name=MathsApp
 Type=1
 Ver=2
 ObjFiles=
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=filemanager.h
+FileName=complex.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=filemanager.cpp
+FileName=complex.cpp
 CompileCpp=1
 Folder=
 Compile=1

@@ -14,14 +14,15 @@ Rectangle::Rectangle(Point pt1, Point pt2, int t,string c):Shape(t,c)
 
 
 float Rectangle::calculateArea(){
+	
 	int x1=this->startPoint.getX();
 	int x2=this->endPoint.getX();
 
 	int y1=this->startPoint.getY();
 	int y2=this->endPoint.getY();
 
-	int height=x2-x1 ;
-	int width=y2-y1;
+	int height=y2-y11 ;
+	int width=x2-x1;
 	float area=height * width;
 	return area;
 }

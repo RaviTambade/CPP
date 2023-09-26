@@ -8,8 +8,10 @@ class Point
 	 		Point();
 	 		Point(int xx,int yy);
 	 		
+	 		//getter setter
 	 		void setX(int xx);
 	 		int getX();
+	 		
 	 		void setY(int yy);
 	 		int getY();
 	 	

@@ -4,6 +4,7 @@
 #include "point.h"
 #include <string>
 using namespace std;
+
 class Circle:Shape
 {
 	private : 

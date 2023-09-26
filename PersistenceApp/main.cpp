@@ -26,8 +26,8 @@ int main () {
 	
 	// opening a file in read mode.
 	ifstream infile ;
-	infile.open("Demo.txt") ;
-	cout<< "Reading from the file" <<endl ;
+	infile.open ("Demo.txt" ) ;
+	cout<< " Reading from the file " <<endl ;
 	infile>>data ;
 	
 	// writing the data

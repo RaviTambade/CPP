@@ -2,6 +2,7 @@
 #include "point.h"
 #include <iostream>
 #include <string>
+
 using namespace std;
 Circle::Circle()
 {
