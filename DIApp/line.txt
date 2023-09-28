@@ -1,0 +1,1 @@
+StartPoint:{12, 10},EndPoint:{56, 155},Thickness:1,Color:red

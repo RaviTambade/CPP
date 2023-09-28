@@ -6,10 +6,7 @@ using namespace std;
 int Complex::count=0;
 
 int main(int argc, char** argv) {
-	
-	
-	//In c++ bydefault objects created on stack
-	
+	//In c++ bydefault objects created on stack	
 	Complex c1(50,125);
 	Complex c2(30,25);
 	
@@ -24,11 +21,8 @@ int main(int argc, char** argv) {
 		delete pComplex;  //explicit Object removal from heap
 	}
 
-
 	Complex  c10= c1 + c2;
 	c10.display();
-	
-	
 	Complex  c11= c1 - c2;
 	c11.display();
 	

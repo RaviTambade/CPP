@@ -43,7 +43,15 @@ int  Complex::getCount(){
  	temp.imag=this->imag- c2.imag;
   	return temp;
  }
-		
+ 
+  //Definition of overloaded binary operator * friend function, which multiples two objects of A and returns an object of A
+Complex  Complex::operator +(Complex c1, Complex c2)
+{
+	Complex temp;
+	temp.real=c1.real- c2.real;
+ 	temp.imag=c2.imag- c2.imag;
+  	return temp;
+}	
 Complex::~Complex()
 {
 	Complex::count--;

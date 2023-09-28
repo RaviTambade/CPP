@@ -1,6 +1,5 @@
 #ifndef COMPLEX_H
 #define COMPLEX_H
-
 class Complex
 {
 	private:
@@ -12,12 +11,11 @@ class Complex
 		void display();
 		~Complex();
 		int static getCount();
+		//Operator overloading	
+		Complex& operator+ (Complex &c2);
+		Complex& operator- (Complex &c2);
 		
-		//Operator overloading
-		
-	  Complex& operator+ (Complex &c2);
-	  Complex& operator- (Complex &c2);
-
+		friend Complex operator *(Complex,Complex);
 	protected:
 };
 
