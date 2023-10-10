@@ -2,6 +2,25 @@
 #include "dynamicarray.h"
 
 using namespace std;
+
+struct Student{
+	string first_name;
+	int roll_number;
+	
+	Student(string name, int roll){
+		first_name=name;
+		roll_number=roll;
+	}
+	string get_name(){
+		return first_name;
+	}
+	
+	string get_roll(){
+		return first_name;
+	}
+};
+
+
 int main()
 {
 	 Dynarray da; // create an array object, size 10
